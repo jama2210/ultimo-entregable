@@ -1,0 +1,33 @@
+a {
+    color: #f85555;
+}
+
+.nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.nav_title {
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: inherit;
+    width: 30%;
+}
